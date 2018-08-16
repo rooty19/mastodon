@@ -36,6 +36,10 @@ group :pam_authentication, optional: true do
   gem 'devise_pam_authenticatable2', '~> 9.1'
 end
 
+group :replication, optional: true do
+  gem 'makara', '~> 0.4'
+end
+
 gem 'net-ldap', '~> 0.10'
 gem 'omniauth-cas', '~> 1.1'
 gem 'omniauth-saml', '~> 1.10'
